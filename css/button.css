@@ -1,0 +1,12 @@
+.button {
+    color: #183160;
+    padding: 2%;
+    border-radius: 30%;
+    font-style: italic;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: 1px solid currentColor;
+}

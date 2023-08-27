@@ -1,0 +1,21 @@
+.article {
+    text-align: left;
+    color: #061f4e;
+}
+
+.article__header {
+    font-style: italic;
+    text-align: center;
+    font-weight: normal;
+}
+
+.article__header--main {
+    text-align: left;
+    font-size: 18px;
+    color: #221860;
+}
+
+.article__photo {
+    border-radius: 30%;
+    padding: 5px;
+}

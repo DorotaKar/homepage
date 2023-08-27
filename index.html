@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorota Karpińska</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+</head>
+
+<body class="body backgroundBodyColor">
+    <header class="article__header article__header--main">
+        <h1>Dorota Karpińska</h1>
+
+        <img class="article__photo" width="75" height="100" src="https://i.postimg.cc/zfFNh8LD/dor.png" alt="Dorota">
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li> <a class="navigation__link" href="#na-początek">na początek</a></li>
+            <li> <a class="navigation__link" href="#o-mnie">o mnie</a> </li>
+            <li> <a class="navigation__link" href="#tabela"> tabela</a></li>
+        </ul>
+    </nav>
+    <p><button class="button js-button"><span class="colorModelName">białe</span> tło strony</button>
+    </p>
+    <main class="article">
+        <article>
+            <h2 class="article__header" id="na-początek">na początek</h2>
+            <p>
+                Cześć! Jestem Dorota, a to moja prosta strona internetowa.
+            </p>
+        </article>
+        <article>
+            <h2 class="article__header" id="o-mnie">o mnie</h2>
+            <p>
+                Mieszkam w małej miejscowości w województwie kujawsko-pomorskim. Obecnie codziennie dojeżdżam do pracy
+                ok 30 km. Dojazd zajmuje mi ok 30 minut w jedną stronę. Czas ten poświęcam na słuchanie podcast'ów lub
+                czytanie książek 😀. Moimi ulubionymi podcastami są: “Dział zagraniczny” (Maciej Okraszewski) oraz
+                “Ekonomicznie” (Rafał Hirsch, Jarosław Kuźniar). Czytam różne książki - nie ma ulubionego gatunku. Mam
+                listę książek do przeczytania... która stale się powiększa, choć systematycznie wykreślam z niej
+                przeczytane pozycje 😀
+            </p>
+            <p>
+                <strong> Programowanie:</strong> próbuję się nauczyć.
+            </p>
+            <p>
+                <strong>Angielski:</strong> powtarzam... dużo rozumiem, ale mało mówię... i czas to zmienić 💪.
+            </p>
+
+        </article>
+
+        <article>
+            <h2 class="article__header" id="tabela">tabela</h2>
+            <div class="container">
+                <table class="table">
+                    <caption class="table__caption">Książki do przeczytania: czerwiec-wrzesień 2023r.: </caption>
+                    <thead>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="col">tytuł</th>
+                            <th class="table__cell table__cell--header" scope="col">autor</th>
+                            <th class="table__cell table__cell--header" scope="col">przeczytane?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">7 CZSTECZEK</th>
+                            <td class="table__cell">Dawid Myśliwiec</td>
+                            <td class="table__cell">tak</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">ZBRODNIA OBOK CIEBIE</th>
+                            <td class="table__cell">Marcin Myszka</td>
+                            <td class="table__cell">tak</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">SOBREMESA - spotkajmy się w Hiszpani</th>
+                            <td class="table__cell">Mikołaj Buczak</td>
+                            <td class="table__cell">nie</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">FINANSOWY NINJA</th>
+                            <td class="table__cell">Michał Szafrański</td>
+                            <td class="table__cell">nie</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">WŁAM SIĘ DO MÓZGU</th>
+                            <td class="table__cell">Radek Kotarski</td>
+                            <td class="table__cell">tak</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">DROBNA NIEUWAŻNOŚĆ</th>
+                            <td class="table__cell">Przemek Kosakowski</td>
+                            <td class="table__cell">w trakcie</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row" colspan="3">miłej lektury 😀</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </article>
+    </main>
+    <footer class="footer">
+        <p> copyright 2023</p>
+    </footer>
+</body>
+
+</html>
