@@ -1,11 +1,26 @@
-console.log("Hejka!!")
+{
+    const welcome = () => {
+        console.log("Hejka!!")
+    };
 
-const changebuttonElement = document.querySelector(".js-button");
-let colorBackground = document.querySelector(".backgroundBodyColor");
-let colorModelName = document.querySelector(".colorModelName")
+    const toggleBackground = () => {
+        const colorBackground = document.querySelector(".backgroundBodyColor");
+        const colorModelName = document.querySelector(".colorModelName")
 
-changebuttonElement.addEventListener("click", () => {
-    colorBackground.classList.toggle("body__white");
-    colorModelName.innerText = colorBackground.classList.contains("body__white") ? "białe" : "domyślne";
-});
+        colorBackground.classList.toggle("body__white");
+        colorModelName.innerText = colorBackground.classList.contains("body__white") ? "białe" : "domyślne";
+    };
 
+    const init = () => {
+
+        const changebuttonElement = document.querySelector(".js-button");
+
+        changebuttonElement.addEventListener("click", toggleBackground);
+
+        welcome();
+
+    };
+
+    init();
+
+}
