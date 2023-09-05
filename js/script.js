@@ -12,13 +12,10 @@
     };
 
     const init = () => {
-
         const changebuttonElement = document.querySelector(".js-button");
-
         changebuttonElement.addEventListener("click", toggleBackground);
 
         welcome();
-
     };
 
     init();
